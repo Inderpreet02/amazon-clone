@@ -1,0 +1,32 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    height: max-content;
+    justify-content: space-between;
+}
+
+.checout__main{
+    display: flex;
+    flex: 1;
+}
+
+.checkout__image{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: -50px;
+    height: 200px;
+}
+
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 40px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.checkout__aside{
+    display: flex;
+    flex: 0.2;
+}
